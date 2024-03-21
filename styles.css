@@ -1,0 +1,28 @@
+
+
+.container-fluid *{
+    box-sizing: border-box;
+    outline: 1px solid black;
+}
+.container-fluid{
+    margin: 0;
+}
+.main-block {
+  height: 100vh;
+ }
+ .main-row{
+    height: 100px;
+ }
+.header {
+  height: 5%;
+}
+.categories{
+    height: 5%;
+}
+.content-block{
+    height: 90%;
+}
+
+aside {
+  height: 100vh;
+}
