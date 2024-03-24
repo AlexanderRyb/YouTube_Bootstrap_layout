@@ -103,6 +103,22 @@ aside {
   align-self: center;
   border-radius: 5px;
 }
+
+.content-category-block{
+  background-color: #f2f2f2;
+  width: auto;
+  height: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.search-bar-container{
+  display: flex;
+}
+.additional-icons-container{
+  display: flex;
+}
 .sidebar-link-row:hover, .subscription-row:hover{
   background-color: #f2f2f2;
 }
