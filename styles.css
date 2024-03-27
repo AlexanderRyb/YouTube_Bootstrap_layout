@@ -16,14 +16,22 @@
  .main-row{
   width: 100%;
  }
-.header {
+header {
   height: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .categories{
     height: 5%;
+  width: 100%;
+
+    padding: 0 10px;
 }
 .content-block{
     height: 90%;
+    align-content: start;
+    margin: 0;
 }
 
 aside {
@@ -115,6 +123,8 @@ aside {
   border-radius: 5px;
   display: flex;
   align-items: center;
+  margin-right: 12px;
+  font-weight: 500;
 }
 .search-bar-container{
   display: flex;
@@ -125,8 +135,30 @@ aside {
   border-radius: 20px;
   width: 90%;
 }
-.additional-icons-container{
+.right-icons-container{
   display: flex;
+  justify-content: right;
+}
+.left-icons-container{
+  display: flex;
+}
+.video-block{
+  padding: 20px;
+  height: fit-content;
+  margin: 0;
+}
+.thumbnail{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;  
+  border-radius: 10px;
+}
+.title-block{
+  width: auto;
+}
+.channel-name{
+  height: auto;
+  margin:0;
 }
 .sidebar-link-row:hover, .subscription-row:hover{
   background-color: #f2f2f2;
