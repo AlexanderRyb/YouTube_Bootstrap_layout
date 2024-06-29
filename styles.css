@@ -292,12 +292,13 @@ aside::-webkit-scrollbar-thumb {
 .time-stamp-overlay{
   position: absolute;
   left: 85%;
-  top: 85%;
+  top: 83%;
   z-index: 100;
   color: white;
   font-size: 13px;
   background-color: black;
   border-radius: 5px;
+  padding:1px;
 }
 .title-block{
   width: auto;
