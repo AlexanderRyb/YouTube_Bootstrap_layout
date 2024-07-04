@@ -283,9 +283,12 @@ aside::-webkit-scrollbar-thumb {
 }
 .channel-pfp-container{
 height: auto;
+padding: 10px;
+
 }
 .video-avatar{
-  width: 24px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -293,6 +296,11 @@ height: auto;
   display: flex;
   flex-wrap: wrap;
  
+}
+.more-button-container{
+  padding: 10px;
+  width: 50px;
+  height: 50px;
 }
 .thumbnail-container{
   width: 100%;

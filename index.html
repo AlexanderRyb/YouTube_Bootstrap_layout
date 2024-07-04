@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link>
+  <head>
+    <link />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YouTube</title>
@@ -10,8 +11,7 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <link rel="icon" href="./images/tab_icon.png">
-
+    <link rel="icon" href="./images/tab_icon.png" />
 
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -78,25 +78,24 @@
           <button>
             <div class="svg-container">
               <svg
-              xmlns="http://www.w3.org/2000/svg"
-              enable-background="new 0 0 24 24"
-              height="24"
-              width="24"
-              viewBox="0 0 24 24"
-              focusable="false"
-              style="
-                pointer-events: none;
-                display: inherit;
-                width: 100%;
-                height: 100%;
-              "
-            >
-              <path
-                d="m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"
-              ></path>
-            </svg>
+                xmlns="http://www.w3.org/2000/svg"
+                enable-background="new 0 0 24 24"
+                height="24"
+                width="24"
+                viewBox="0 0 24 24"
+                focusable="false"
+                style="
+                  pointer-events: none;
+                  display: inherit;
+                  width: 100%;
+                  height: 100%;
+                "
+              >
+                <path
+                  d="m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"
+                ></path>
+              </svg>
             </div>
-           
           </button>
         </form>
 
@@ -127,13 +126,7 @@
             height="24"
             width="24"
             viewBox="0 0 24 24"
-
-
-            style="
-              pointer-events: none;
-              display: inherit;
-              
-            "
+            style="pointer-events: none; display: inherit"
             focusable="false"
           >
             <path
@@ -148,13 +141,8 @@
             height="24"
             width="24"
             viewBox="0 0 24 24"
-
             focusable="false"
-            style="
-              pointer-events: none;
-              display: inherit;
-             
-            "
+            style="pointer-events: none; display: inherit"
           >
             <path
               d="M10 20h4c0 1.1-.9 2-2 2s-2-.9-2-2zm10-2.65V19H4v-1.65l2-1.88v-5.15C6 7.4 7.56 5.1 10 4.34v-.38c0-1.42 1.49-2.5 2.99-1.76.65.32 1.01 1.03 1.01 1.76v.39c2.44.75 4 3.06 4 5.98v5.15l2 1.87zm-1 .42-2-1.88v-5.47c0-2.47-1.19-4.36-3.13-5.1-1.26-.53-2.64-.5-3.84.03C8.15 6.11 7 7.99 7 10.42v5.47l-2 1.88V18h14v-.23z"
@@ -849,7 +837,7 @@
         </aside>
 
         <div class="main-block col-9">
-          <div class="categories  row d-none d-lg-flex ">
+          <div class="categories row d-none d-lg-flex">
             <div class="content-category-block">All</div>
             <div class="content-category-block">Music</div>
             <div class="content-category-block">Movies</div>
@@ -862,98 +850,133 @@
             <!-- <div class="content-category-block">Watched</div>
             <div class="content-category-block">New to You</div> -->
           </div>
-          <div class="content-block row  mx-n2 no-gutters">
-            <div class="video-block col-sm-6 col-md-4 col-lg-3  px-w">
+          <div class="content-block row mx-n2 no-gutters">
+            <div class="video-block col-sm-6 col-md-4 col-lg-3 px-w">
               <div class="thumbnail-container">
                 <img class="thumbnail" src="./images/thumbnail.jpg" />
                 <div class="time-stamp-overlay">12:38</div>
-
               </div>
-           
+
               <div class="video-data-container row">
                 <div class="channel-pfp-container col-2">
                   <img class="video-avatar" src="../images/man.jpg" />
                 </div>
                 <div class="video-text-data col-8">
                   <div class="video-title">Video</div>
-                  <p class="channel-name">Channel  </p>
-                  <p class="video-stats">1B views  •  1 second ago</p>
+                  <p class="channel-name">Channel</p>
+                  <p class="video-stats">1B views • 1 second ago</p>
                 </div>
-               
+                <div class="more-button-container col">
+                  <svg
+                    width="24"
+                    height="24"
+                    style="
+                      pointer-events: none;
+                      display: inherit;
+                      width: 100%;
+                      height: 100%;
+                    "
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect width="24" height="24" fill="white" />
+                    <circle
+                      cx="12"
+                      cy="7"
+                      r="0.5"
+                      transform="rotate(90 12 7)"
+                      stroke="#000000"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="0.5"
+                      transform="rotate(90 12 12)"
+                      stroke="#000000"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <circle
+                      cx="12"
+                      cy="17"
+                      r="0.5"
+                      transform="rotate(90 12 17)"
+                      stroke="#000000"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
               </div>
             </div>
-            <div class="video-block col-sm-6 col-md-4 col-lg-3  px-w">
+            <div class="video-block col-sm-6 col-md-4 col-lg-3 px-w">
               <div class="thumbnail-container">
                 <img class="thumbnail" src="./images/thumbnail_2.jpg" />
                 <div class="time-stamp-overlay">12:38</div>
-
-
               </div>
               <div class="video-data-container">
                 <div class="video-title">Video</div>
-                <p class="channel-name">Channel </p>
-                <p class="video-stats">1B views  •  1 second ago</p>
+                <p class="channel-name">Channel</p>
+                <p class="video-stats">1B views • 1 second ago</p>
               </div>
             </div>
-            <div class="video-block col-sm-6 col-md-4 col-lg-3  px-w">
+            <div class="video-block col-sm-6 col-md-4 col-lg-3 px-w">
               <div class="thumbnail-container">
                 <img class="thumbnail" src="./images/thumbnail_3.jpg" />
                 <div class="time-stamp-overlay">12:38</div>
-
               </div>
               <div class="video-data-container">
                 <div class="video-title">Video</div>
-                <p class="channel-name">Channel </p>
-                <p class="video-stats">1B views  •  1 second ago</p>
+                <p class="channel-name">Channel</p>
+                <p class="video-stats">1B views • 1 second ago</p>
               </div>
             </div>
-            <div class="video-block col-sm-6 col-md-4 col-lg-3  px-w">
+            <div class="video-block col-sm-6 col-md-4 col-lg-3 px-w">
               <div class="thumbnail-container">
                 <img class="thumbnail" src="./images/thumbnail_4.jpg" />
                 <div class="time-stamp-overlay">12:38</div>
-
               </div>
               <div class="video-data-container">
                 <div class="video-title">Video</div>
-                <p class="channel-name">Channel </p>
-                <p class="video-stats">1B views  •  1 second ago</p>
+                <p class="channel-name">Channel</p>
+                <p class="video-stats">1B views • 1 second ago</p>
               </div>
             </div>
-            <div class="video-block col-sm-6 col-md-4 col-lg-3  px-w">
+            <div class="video-block col-sm-6 col-md-4 col-lg-3 px-w">
               <div class="thumbnail-container">
                 <img class="thumbnail" src="./images/thumbnail_5.jpg" />
                 <div class="time-stamp-overlay">12:38</div>
-
               </div>
               <div class="video-data-container">
                 <div class="video-title">Video</div>
-                <p class="channel-name">Channel </p>
-                <p class="video-stats">1B views  •  1 second ago</p>
+                <p class="channel-name">Channel</p>
+                <p class="video-stats">1B views • 1 second ago</p>
               </div>
             </div>
-            <div class="video-block col-sm-6 col-md-4 col-lg-3  px-w">
+            <div class="video-block col-sm-6 col-md-4 col-lg-3 px-w">
               <div class="thumbnail-container">
                 <img class="thumbnail" src="./images/thumbnail_6.jpg" />
                 <div class="time-stamp-overlay">12:38</div>
-
               </div>
               <div class="video-data-container">
                 <div class="video-title">Video</div>
-                <p class="channel-name">Channel </p>
-                <p class="video-stats">1B views  •  1 second ago</p>
-              </div>              
+                <p class="channel-name">Channel</p>
+                <p class="video-stats">1B views • 1 second ago</p>
               </div>
-              <div class="video-block col-sm-6 col-md-4 col-lg-3  px-w">
-                <div class="thumbnail-container">
-                  <img class="thumbnail" src="./images/thumbnail_7.jpg" />
+            </div>
+            <div class="video-block col-sm-6 col-md-4 col-lg-3 px-w">
+              <div class="thumbnail-container">
+                <img class="thumbnail" src="./images/thumbnail_7.jpg" />
                 <div class="time-stamp-overlay">12:38</div>
-
-                </div>
-                <div class="video-data-container">
-                  <div class="video-title">Video</div>
-                  <p class="channel-name">Channel </p>
-                  <p class="video-stats">1B views  •  1 second ago</p>
-                </div>
+              </div>
+              <div class="video-data-container">
+                <div class="video-title">Video</div>
+                <p class="channel-name">Channel</p>
+                <p class="video-stats">1B views • 1 second ago</p>
+              </div>
             </div>
           </div>
         </div>
